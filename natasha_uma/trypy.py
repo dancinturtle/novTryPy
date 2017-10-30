@@ -1,3 +1,33 @@
+#STRING METHODS
+
+str1 = "I intend to live forever or die trying to do it"
+#to capitalize each character of string, use caplitalize() method
+str2 = "hello"
+print str2.capitalize()
+#to make a string in uppercase, use upper() method
+print str1.upper()
+#to make a string in lowercase, use lower() method
+print str1.lower()
+#to count occurences of character or string , use count() method
+print str1.count('a')
+#to find first occurence of string, number etc., use find() method
+print str1.find('to')
+#to find index of a number or string etc, use index() method
+print str1.index('to')
+#to split a string based on a character, use split() method
+print str1.split(',')
+numList = [1,3,45,6]
+#to join a list using some character, use join() method
+print ','.join(str(v) for v in numList)
+'''to replace a number, character, string etc. with other, use replace method. Pass
+that string as first argument which needs to be replaced, and second is what it needs
+to be replaced with'''
+print str1.replace('die', 'keep')
+#to format a string, pass variables in curly braces and use format()
+print "We have {0} hectares planted to {1}.".format(49, "okra")
+
+#LIST METHODS
+
 #to get the total length of a list i can use the len method and passing my variable such as:
 my_num = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8]
 
